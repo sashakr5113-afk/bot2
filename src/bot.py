@@ -1,7 +1,7 @@
 import discord
 import os
 
-
+client = discord.Client()
 TOKEN = os.getenv('DISCORD_TOKEN')  # Render вставит токен сюда!
 client.run(TOKEN)
 
